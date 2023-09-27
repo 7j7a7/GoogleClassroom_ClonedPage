@@ -1,0 +1,359 @@
+/*sets font for all text*/
+body {
+    font-family: 'Roboto';
+}
+
+/*sets text colour*/
+.col-dark {
+    color: #bf7822;
+}
+
+
+/*container set to middle*/
+.mid {
+    width: 30%;
+    margin-left: 30%;
+    /* margin: auto;auto center    */
+}
+
+
+/*sets font size for small text*/
+.small {
+    font-size: 14px;
+}
+
+
+/*changes opacity of grey line*/
+.op {
+    opacity: 50%; /*lighter*/
+}
+
+
+/*sets text colour to orange*/
+.col {
+    color: orange;
+}
+
+
+/*moves to right of container*/
+.right{
+    float:right;
+}
+
+
+/*moves the code under title to the right*/
+.move{
+    position:relative;
+    top:-52px;
+    left:10.5%;
+}
+
+
+/*course name moves up*/
+.course{
+    position: relative;
+    top: -16px;
+    opacity: 80%; /*lighter text*/
+    left:-30px;
+}
+
+
+/*positioning the logo*/
+.logo{
+    position:relative;
+    top:2px;
+    width: 2%;
+    height: 2%;
+}
+
+
+/*for the word clasroom after the logo*/
+.large{
+    position:relative;
+    top:-4px;
+    font-size: 24px;
+}
+
+
+/*positioning the arrow icon*/
+.arrow{
+    position: relative;
+    top:-5px;
+    opacity: 60%;/*lighter*/
+}
+
+
+/*line moves up*/
+.spacing{
+    margin-top:-60px;
+}
+
+
+/*this out line*/
+#thin{
+    border-top: none;
+}
+
+/*moves apps icon*/
+.apps{
+    position:relative;
+    top:-60px;
+    left:83.5%;
+}
+/*moves profile icon*/
+#profile{
+    position:relative;
+    left:84%;
+    top:-53px;
+}
+
+
+/*SIDEBAR*/
+
+.sidebar{
+    background-color: white;
+    position:fixed;
+    height: 93%;
+    width: 15%;
+    left: 0;
+    padding-top:55px
+    white-space; /*meant to prevent the text from wrapping to the next line, but taking it out messes up the spacing*/
+}  
+/*items in sidebar*/
+.sidebar a{
+    color: rgb(75, 73, 73);
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    border-top: none;
+    border-bottom: none;
+    border-left:none;
+    
+}
+/*verical line for sidebar menu*/
+.vl {
+    position: absolute;
+    border-right:1px solid rgb(182, 181, 181);
+    height: 100%;
+  }
+/*highlight when hovering*/
+.sidebar a:hover {
+    background-color: #d7d7d7;
+    }
+/*google icons size*/
+.material-symbols-outlined{
+    vertical-align: middle;
+    padding-bottom: 3px;
+    margin-right: 30px; /*spaced between icon +label*/
+} 
+/*menu icon positioning on top*/
+.menu{
+    position: relative;
+    left: 26px;
+    top: -5px;
+}
+/*first box with two smaller boxes inside*/
+.r{
+    background-color:transparent;
+    position:absolute;
+    top:14%;
+    left:62%;
+    width: 12%;
+    padding: 14px; 
+    height: 170px;
+    border-radius: 5px; /*round corners*/
+    box-shadow: 1px 1px 3px 3px rgb(212, 212, 212);
+    margin-top: -4.2%;
+    margin-bottom: 20px;
+    
+}
+/* unsubmit box*/
+.box2{
+    position: absolute;
+    left: 62%;
+    width: 12%;
+    height: 50px;
+    padding:17px;
+    border-radius: 5px; /*round corners*/
+    box-shadow: 1px 1px 3px 3px rgb(212, 212, 212);
+    margin-top: -1%;
+}
+/*private commentscicon*/
+.person{
+    position:absolute;
+    color: #6c6a6a;
+}
+/*on hover highlight*/
+.hov_or :hover{
+    background-color: #f8f3ed;
+}
+/*'class comments'*/
+.comment{
+    position: absolute;
+    left:31.5%;
+    top:19.5%;
+    color: #6c6a6a;
+}
+/*comment icon*/
+.com_icon{
+    color: #6c6a6a;
+}
+/*box with preview of submitted work*/
+.upload{
+    border:1px solid rgb(182, 181, 181);
+    border-radius: 5px; /*round corners*/
+    width:100%;
+    height:60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*umsubmit button*/
+.submit{
+    border:1px solid rgb(182, 181, 181);
+    border-radius: 5px; /*round corners*/
+    width:100%;
+    height:25px;
+    text-align: center; 
+    padding-top:10px;
+}
+/*font size for 'your work'*/
+.yw{
+    font-size: 20px;
+}
+/*assignment icon positioning*/
+.assign{
+    position: absolute;
+    left:28%;
+    font-size: 30px;
+    color: white;
+    padding-top:5px;
+    padding-left: 5px;
+    border-radius:20px; /*making the circle*/ /*round corners*/
+    width: 35px;
+    height: 34px;
+    background-color:#f18330;
+}
+
+
+@media only screen and (max-width:1400px){
+
+
+    /*moves the code under title to the right*/
+    .move{
+        position:relative;
+        top:-52px;
+        left:21%;
+    }
+
+    .sidebar{
+        background-color: white;
+        position:fixed;
+        height: 93%;
+        width: 22%;
+        left: 0;
+        padding-top:55px
+        white-space; /*meant to prevent the text from wrapping to the next line, but taking it out messes up the spacing*/
+    }  
+
+        /*container set to middle*/
+    .mid {
+        width: 30%;
+        margin:auto;
+        /* margin: auto;auto center    */
+    }
+    /*first box with two smaller boxes inside*/
+    .r{
+        background-color:transparent;
+        position:absolute;
+        top:23%;
+        left:68%;
+        width: 20%;
+        padding: 14px; 
+        height: 170px;
+        border-radius: 5px; /*round corners*/
+        box-shadow: 1px 1px 3px 3px rgb(212, 212, 212);
+        margin-bottom: 20px;
+        
+    }
+    /* unsubmit box*/
+    .box2{
+        position: absolute;
+        left: 68%;
+        width: 20%;
+        height: 50px;
+        padding:17px;
+        border-radius: 5px; /*round corners*/
+        box-shadow: 1px 1px 3px 3px rgb(212, 212, 212);
+        top: 55%;
+    }
+
+    /*'class comments'*/
+    .comment{
+        position: absolute;
+        left:38%;
+        top:51.5%;
+        color: #6c6a6a;
+    }
+
+    /*positioning the logo*/
+    .logo{
+        position:relative;
+        top:2px;
+        width: 4%;
+        height: 4%;
+    }
+}
+
+@media screen and (max-width:1980px)and (min-width:1920px){
+    /*positioning the logo*/
+    .logo{
+        position:relative;
+        top:1px;
+        width: 2.5%;
+        height: 2.5%;
+    }
+
+    /*'class comments'*/
+    .comment{
+        position: absolute;
+        left:32%;
+        top:26%;
+        color: #6c6a6a;
+    }
+
+    /*moves the code under title to the right*/
+    .move{
+        position:relative;
+        top:-52px;
+        left:14%;
+    }
+
+    /*first box with two smaller boxes inside*/
+    .r{
+        top:15%;
+        left:64%;
+        width: 20%;
+    
+        
+    }
+    /* unsubmit box*/
+    .box2{
+        left:64%;
+        width: 20%;
+    }
+
+    /*assignment icon positioning*/
+    .assign{
+        position: absolute;
+        left:27%;
+        font-size: 30px;
+        color: white;
+        padding-top:5px;
+        padding-left: 5px;
+        border-radius:20px; /*making the circle*/ /*round corners*/
+        width: 35px;
+        height: 34px;
+        background-color:#f18330;
+    }
+
+}
